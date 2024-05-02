@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.profile-card {
+    background-color:rgb(114, 57, 114);
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px solid rgb(11 11 11);
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgba(53, 47, 2, 0.911);
+}
+
+.profile-picture {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: 2px double rgb(177, 131, 114);
+    border-radius: 40%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    box-shadow: 4px 4px 6px rgba(53, 47, 2, 0.911);
+
+}
+.card{
+    margin: o auto;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+.job-title {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-top: 7px double rgb(231, 153, 7);
+    border-bottom: 7px double rgb(231, 153, 7);
+    border-radius: 5%;
+    background-color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.description {
+    font-size: 16px;
+    text-align: center; /* Align description to the left */
+    line-height: 1.5;
+    color: white;
+    border-bottom: 20px;
+}
+  
+.social-icons{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: rgb(231, 153, 7);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+    border-top: 20px;
+    text-align: center;
+}
+.social-icons:hover{
+    color: white;
+}
